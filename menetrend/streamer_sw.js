@@ -1,4 +1,4 @@
-//Ez a ServiceWorker a https://css-tricks.com/serviceworker-for-offline/ oldalról származik.
+﻿//Ez a ServiceWorker a https://css-tricks.com/serviceworker-for-offline/ oldalról származik.
 //This ServiceWorker originated from this article: https://css-tricks.com/serviceworker-for-offline/ 
 
 const cacheName = 'v3';
@@ -9,7 +9,7 @@ self.addEventListener("install", function (event) {
     caches.open(cacheName + 'fundamentals').then(function (cache) {
 //Itt van az a rész amelyet be kell állítanod:
       return cache.addAll([
-        'icon.png', //streamerdata.js-ben megadott offlinePic. Vagyis az Offline-nak szánt kép elérési útját illeszd be ide. Mást ne módosíts!
+        'AvidOfflineScreenOptimized.png', //streamerdata.js-ben megadott offlinePic. Vagyis az Offline-nak szánt kép elérési útját illeszd be ide. Mást ne módosíts!
       ]);
     })
       .then(function () {

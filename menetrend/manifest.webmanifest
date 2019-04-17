@@ -1,6 +1,6 @@
-{
-    "name": "Mobil Menetrend Rendes neve",  
-    "short_name": "Mobil Menetrend Rövidített neve",
+﻿{
+    "name": "Avid Mobil Menetrend",  
+    "short_name": "Avid MM",
     "display": "standalone",
     "orientation": "natural",
     "start_url": ".",
@@ -8,7 +8,7 @@
     "theme_color": "#6441A4",
     "icons": [
         {
-            "src": "icon.png",
+            "src": "avidisodd_144.png",
             "sizes": "144x144",
             "type": "image/png"
         }
